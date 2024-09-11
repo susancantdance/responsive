@@ -4,41 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link ref="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <picture>
-        <img src="portrait.JPG" />
-      </picture>
+    <div class="container">
+      <header>
+        <div class="hero">
+          <picture>
+            <source media="(max-width: 499px)" srcset="portrait-smol.jpg" />
+            <source media="(min-width: 500px)" srcset="portrait-big.jpg" />
+            <img src="portrait-big.jpg" />
+          </picture>
+        </div>
 
-      <p class="title">About Me</p>
-      <div class="social"></div>
-    </header>
-    <section>
-      <p class="title">My Work</p>
-      <div class="project">
-        <img src="kitty.jpeg" />
-      </div>
-      <div class="project">
-        <img src="kitty.jpeg" />
-      </div>
-      <div class="project">
-        <img src="kitty.jpeg" />
-      </div>
-      <div class="project">
-        <img src="kitty.jpeg" />
-      </div>
-      <div class="project">
-        <img src="kitty.jpeg" />
-      </div>
-      <div class="project">
-        <img src="kitty.jpeg" />
-      </div>
-    </section>
-    <footer>
-      <div class="contact-me"></div>
-      <div class="footer-img"></div>
-    </footer>
+        <div class="about-me-text">
+          <p class="title">About Me</p>
+          <p class="me-description">
+            Meowwww fooled again thinking the dog likes me and let me in let me
+            out let me in let me out let me in let me out who broke this door
+            anyway so destroy the blinds or be a nyan cat, feel great about it,
+            be annoying 24/7 poop rainbows in litter box all day hell is other
+            people. Poop on couch swipe at owner's legs sit as close as possible
+            to warm fire without sitting on cold floor or have secret plans,
+          </p>
+          <div class="social"></div>
+        </div>
+      </header>
+      <section>
+        <p class="title">My Work</p>
+        <div class="my-projects">
+          <div class="project">
+            <div class="proj-img">
+              <img src="kitty-desktop.jpg" />
+            </div>
+            <p class="proj-title">My Purroject</p>
+          </div>
+          <div class="project">
+            <img src="kitty-desktop.jpg" />
+            <p class="proj-title">My Purroject</p>
+          </div>
+          <div class="project">
+            <img src="kitty-desktop.jpg" />
+            <p class="proj-title">My Purroject</p>
+          </div>
+          <div class="project">
+            <img src="kitty-desktop.jpg" />
+            <p class="proj-title">My Purroject</p>
+          </div>
+          <div class="project">
+            <img src="kitty-desktop.jpg" />
+            <p class="proj-title">My Purroject</p>
+          </div>
+          <div class="project">
+            <img src="kitty-desktop.jpg" />
+            <p class="proj-title">My Purroject</p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="contact-me"></div>
+        <div class="footer-img">
+          <!-- <img src="tie.jpg" /> -->
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
