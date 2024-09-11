@@ -22,6 +22,14 @@ header {
 .hero {
   justify-self: end;
   background-color: gold;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero img {
+  width: 20vw;
 }
 
 .about-me-text {
@@ -34,7 +42,7 @@ header {
 section {
   display: grid;
   grid-template-rows: 100px auto;
-  margin: 50px;
+  /* margin: 50px; */
   background-color: brown;
 }
 
@@ -49,6 +57,7 @@ section {
   gap: 20px;
   padding-left: 40px;
   padding-right: 40px;
+  background-color: blueviolet;
 }
 
 .project {
@@ -74,7 +83,7 @@ section {
     display: flex;
     flex-direction: column;
     background-color: green;
-    max-width: 400px;
+    max-width: 100vw;
     align-items: center;
     justify-content: center;
   }
@@ -96,7 +105,31 @@ section {
     margin: 0px;
   }
 
+  .hero img {
+    width: 80vw;
+  }
+
   .project img {
     width: 100px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+    background-color: brown;
+    align-items: stretch;
+  }
+
+  .my-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 80vw;
+  }
+
+  .my-work-text {
+    margin-left: 50px;
   }
 }
