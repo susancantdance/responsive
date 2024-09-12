@@ -102,17 +102,18 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .container {
     display: flex;
     flex-direction: column;
     /* background-color: green; */
-    max-width: 100vw;
+    min-width: 375px;
     align-items: center;
     justify-content: center;
-    margin-top: -50px;
+    margin: -8px;
+    /* margin-top: -50px; */
   }
 
   header {
