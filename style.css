@@ -22,6 +22,7 @@ header {
 }
 
 .hero {
+  position: relative;
   justify-self: end;
   /* background-color: gold; */
   display: flex;
@@ -33,6 +34,13 @@ header {
 picture > img,
 picture > source {
   box-shadow: 3px 3px 6px rgb(177, 176, 176);
+}
+
+.name {
+  position: absolute;
+  bottom: -70px;
+  font-size: 80px;
+  color: white;
 }
 
 .about-me-text {
@@ -124,6 +132,13 @@ section {
     align-items: center;
     margin: 0px;
     /* background-color: aqua; */
+  }
+
+  .name {
+    font-size: 100px;
+    text-align: center;
+    bottom: -80px;
+    line-height: 0.75;
   }
 
   .about-me-text {
